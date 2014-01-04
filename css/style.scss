@@ -1,0 +1,30 @@
+@import "sass/boot/bootstrap.scss";
+@import "sass/boot/responsive.scss";
+@import "sass/cms/ColorMeSASS.scss";
+@import "sass/custom/mq.scss";
+//@import "sass/custom/hint.scss"; Uncomment for hint.css
+@import "sass/custom/style.scss"; //Custom Style
+@import "sass/custom/print.scss";
+@import "compass/css3" ; 
+
+.navbar {
+    background:#fff;
+    @include opacity(0.85);
+}
+
+.navbar-fixed-top .container {
+    width:740px;
+}
+
+.quote {
+    p {
+        text-align:right; 
+    }
+
+    .author {
+        float:right ; 
+    }
+}
+
+body {
+}

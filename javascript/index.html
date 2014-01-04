@@ -1,0 +1,37 @@
+---
+layout: default
+title: Mainpage
+---
+  <div class="content">
+    <main class="container">
+    	<div class="row-fluid">
+    		<section class="content">
+                <h1>Javascript</h1>
+            <div class="quote">
+                <p>
+                Life isn't about finding myself.<br/>
+                Life is about creating myself.  
+                </p>
+                <div class="author">
+                    George Bernard Shaw
+                </div>
+            </div>
+    		</section>
+    		<ul class="entries">
+    		{% for post in site.posts %}
+                {% if post.category == 'javascript' %}
+    		  <li>
+    		    <a href="{{ post.url }}">
+                      <span>{{ post.date | date: "%d %B %Y" }}</span>
+    		        <h3>{{ post.title }}</h3>
+                      <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
+    		    </a>
+    		  </li>
+                {% endif %}
+    		{% endfor %}
+    		</ul>
+    	</div>
+      <hr> 
+    </main>
+  </div>
+
