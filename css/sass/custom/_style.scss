@@ -216,4 +216,9 @@ article.post {
     section {
         font-family : inherit ;
     }
+
+    table  { 
+        @extend .table ;
+        @extend .table-striped ; 
+    }
 }

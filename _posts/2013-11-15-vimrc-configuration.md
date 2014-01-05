@@ -10,12 +10,13 @@ vim설정파일은 필요할때 마다 하나씩 찾아가면서 배운것이라
 
 ### .vimrc 
 
-.vimrc 파일은 홈디렉토리 밑에 있다.
-''
-vi ~/.vimrc
-'' 
+.vimrc 파일은 홈디렉토리 밑에 있다. \*nix 시스템 기준
+{% highlight bash %}
+vi ~/.vimrc //만약에 없다면 만들고 설정하면 된다.
+{% endhighlight bash %}
 
-### .vimrc 설정파일 분석하기
+오늘은 mapping 에 대해서 간단히 정리해 본다. 
+vim의 매력은 키보드로 모든 것을 컨트롤 한다는 것인데, 그러한 장점을 살려주는 것이 키매핑이 아닐까? 설정파일만 보면 어떤 역할일지 감이 오지만, 어설프게 알면 아는것만 못하다고 했다. 이번기회에 매핑에 대해서 정리해 본다.
 
 ###  map vs noremap
 map,noremap 둘다 특정키를 매핑하는 역할을 한다. 간단히 얘기하면 recursive vs non-recursive 이다. 
@@ -64,10 +65,10 @@ Q를 눌르면 j를 누르는 것과 동일한 효과 입니다.
 공유되는 .vimrc 파일보면 자주 볼수 있는 부분이 mapleader="," 입니다. 아무래도 '\'같은 경우엔 손을 더 많이 움직여야해서 ','로 대체하는거 같은데 그렇게 설정하니까 편하네요. 
 
 키맵핑에 관한 자세한 팁들은 
-[vim.wikia.com/wiki](http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_(Part_1)) 여기서 더 많이 볼 수 있습니다. 
+[vim.wikia.com/wiki](http://vim.wikia.com/wiki/Mapping_keys_in_Vim_-_Tutorial_%28Part_1%29) 여기서 더 많이 볼 수 있습니다. 
 
 |명령어            | 설명|
-|------------------|:-------------:|
+|------------------|-------------|
 |nmap              | display normal mode maps  |
 |imap              | display insert mode maps  |
 |vmap              | display visual and select mode maps  |
@@ -85,4 +86,36 @@ Q를 눌르면 j를 누르는 것과 동일한 효과 입니다.
 {% endhighlight bash %}
 이렇게 매핑한다면 normal mode일때 g를 누르면 gg로 non-recursive 매핑을 하게됩니다. 
 
+마지막으로 vim에서 keymapping 시에 enter,esc,F1 등의 키를 매핑을 할 수도 있다. 
+
+| vim mapping key             | 대응되는 key
+|-----------------------------|---------------|
+|&lt;BS&gt;                   |Backspace      |
+|&lt;Tab&gt;                  |Tab            |
+|&lt;CR&gt;                   |Enter          |
+|&lt;Enter&gt;                |Enter          |
+|&lt;Return&gt;               |Enter          |
+|&lt;Esc&gt;                  |Escape         |
+|&lt;Space&gt;                |Space          |
+|&lt;Up&gt;                   |Up arrow       |
+|&lt;Down&gt;                 |Down arrow     |
+|&lt;Left&gt;                 |Left arrow     |
+|&lt;Right&gt;                |Right arrow    |
+|&lt;F1&gt; - &lt;F12&gt;     |Function keys 1 to 12       |
+|#1, #2..#9,#0                |Function keys F1 to F9, F10 |
+|&lt;Insert&gt;               |Insert                      |
+|&lt;Del&gt;                  |Delete                      |
+|&lt;Home&gt;                 |Home                        |
+|&lt;End&gt;                  |End                         |
+|&lt;PageUp&gt;               |Page-Up                     |
+|&lt;PageDown&gt;             |Page-Down                   |
+
+예를 들어서 
+{% highlight bash %}
+:imap ,<Space> <Space><Space><Space><Space>
+:nmap ,t :!phpunit tests
+{% endhighlight bash %}
+
+이렇게 작성한다면 insert mode일 경우 ,+스페이스바 를 입력하면 공백이 4개가 입력됩니다.
+또한 normal mode에서 ,t를 누르면 :!phpunit tests 가 입력이 되서 phpunit이 실행됩니다. 
 
