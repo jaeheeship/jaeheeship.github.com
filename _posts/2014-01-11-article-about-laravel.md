@@ -35,3 +35,5 @@ tags: [php,laravel]
 ### 05. 그외
 * [라러블 cheet sheet](http://cheats.jesse-obrien.ca/) : 1페이지로 정리한 것은 아니고 , laravel에서 자주 쓸법한 내용들을 정리함.
 * [라러블 스키마 디자이너](http://www.laravelsd.com/) : 웹상에서 database모델링이 가능하며 laravel migration 파일로 export도 가능하다.
+
+> 이 페이지의 최종 업데이트는 2014년 1월 11일 입니다. 지속적으로 업데이트 할 예정입니다.
