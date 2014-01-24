@@ -20,6 +20,7 @@ tags: [php,laravel]
 
 * [http://fideloper.com/](http://fideloper.com/) : 라러블의 고급부분을 자세히 다룬다. 라러블 뿐만 아니라 다른 아티클도 많다. 즐겨보는 블로그 중의 하나이다. 
 * [http://daylerees.com/](http://daylerees.com/) : codebright 를 저술한 블로거이다. Laravel 개발자의 한명이기도 하다. 
+* [https://medium.com/laravel-4](https://medium.com/laravel-4) : 라러블을 처음 시작하는 사람들에게 유용한 아티클이 많다.
 
 ### 03. 라러블 관련 서적
 
@@ -36,4 +37,4 @@ tags: [php,laravel]
 * [라러블 cheet sheet](http://cheats.jesse-obrien.ca/) : 1페이지로 정리한 것은 아니고 , laravel에서 자주 쓸법한 내용들을 정리함.
 * [라러블 스키마 디자이너](http://www.laravelsd.com/) : 웹상에서 database모델링이 가능하며 laravel migration 파일로 export도 가능하다.
 
-> 이 페이지의 최종 업데이트는 2014년 1월 11일 입니다. 지속적으로 업데이트 할 예정입니다.
+> 이 페이지의 최종 업데이트는 2014년 1월 24일 입니다. 지속적으로 업데이트 할 예정입니다.
