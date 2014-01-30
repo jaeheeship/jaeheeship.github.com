@@ -1,47 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://jaeheeship.github.com/console/2013/11/15/vimrc-configuration.html</loc>
+        <loc>http://jaeheeship.github.io/console/2013/11/15/vimrc-configuration.html</loc>
         <lastmod>2014-01-24T13:50:45+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/php/2014/01/04/mockery-basic.html</loc>
+        <loc>http://jaeheeship.github.io/php/2014/01/04/mockery-basic.html</loc>
         <lastmod>2014-01-24T13:50:45+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/php/2014/01/11/article-about-laravel.html</loc>
+        <loc>http://jaeheeship.github.io/php/2014/01/11/article-about-laravel.html</loc>
         <lastmod>2014-01-24T13:54:47+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/javascript/2014/01/19/javascript-hoisting.html</loc>
+        <loc>http://jaeheeship.github.io/javascript/2014/01/19/javascript-hoisting.html</loc>
         <lastmod>2014-01-29T13:06:43+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/javascript/2014/01/20/defining-functions.html</loc>
+        <loc>http://jaeheeship.github.io/javascript/2014/01/20/defining-functions.html</loc>
         <lastmod>2014-01-29T13:11:47+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/console/</loc>
+        <loc>http://jaeheeship.github.io/console/</loc>
         <lastmod>2014-01-24T13:50:45+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/</loc>
+        <loc>http://jaeheeship.github.io/</loc>
         <lastmod>2014-01-29T13:11:47+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/javascript/</loc>
+        <loc>http://jaeheeship.github.io/javascript/</loc>
         <lastmod>2014-01-24T13:50:45+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/others/</loc>
+        <loc>http://jaeheeship.github.io/others/</loc>
         <lastmod>2014-01-24T13:50:45+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/php/</loc>
+        <loc>http://jaeheeship.github.io/php/</loc>
         <lastmod>2014-01-24T13:50:45+09:00</lastmod>
     </url>
     <url>
-        <loc>http://jaeheeship.github.com/php.html</loc>
+        <loc>http://jaeheeship.github.io/php.html</loc>
         <lastmod>2014-01-24T13:50:45+09:00</lastmod>
     </url>
 </urlset>
