@@ -85,6 +85,8 @@ hello = function(){
 
 > 함수선언문의 호이스팅과 변수의 호이스팅의 차이점을 알아둘 필요가 있다.
 
+----
+
 ####### 같이보면 좋아요.
 
 * [자바스크립트의 호이스팅](/javascript/2014/01/19/javascript-hoisting.html)
