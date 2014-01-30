@@ -1,6 +1,6 @@
 ---
 layout: post_page
-title: "자바스크립트의 hoisting"
+title: "자ss바스크립트의 hoisting"
 description: "자바스크립트의 hoisting에 대해서 알아보자"
 category : "hello"
 tags: [javascript]
