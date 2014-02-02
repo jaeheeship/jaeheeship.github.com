@@ -72,6 +72,7 @@ phpunit --bootstrap="vendor/autoload.php" test
 ### 실수 2 : Mockery 기본 셋팅하기
 Mockery::close()  이 문장은 반드시 필요하다. 이부분은 조금더 공부가 필요한데 , Mockery::close()를 안하면 테스팅이 정상적으로 작동이 안된다. 예를 들면
 {% highlight php %} 
+<?php
 public function testLearningRegister()
     { 
         $data = array(
@@ -80,6 +81,7 @@ public function testLearningRegister()
         $this->learningRepository->shouldReceive('register')->once()->andReturn($data) ; 
         $this->learningManager->register($data) ; 
     }
+?>
 {% endhighlight php %}
 
 여기서 ***shouldReceive('register')->once() 문장은 learningRepository가 반드시 register라는 메소드를 한번은 실행해야 한다는 것이다.*** Mockery::close() 가 없으면 저 테스팅이 정상적으로 이뤄지지 않는다. register메소드가 호출이 되지 않았음에도 성공적으로 테스팅이 종료된다.  
